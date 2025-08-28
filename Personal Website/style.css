@@ -1,0 +1,61 @@
+/* Gabriela Avila */
+/* Start Date: 8/19/2025 */
+/* style guide for personal website */
+
+h1 {
+    text-align: center;
+}
+
+body{
+    background-color:hsl(194, 44%, 64%);
+}
+
+h2{
+    text-align:center;
+}
+
+p{
+    text-align: left;
+}
+
+main{
+    display: grid;
+    place-items: center;
+}
+
+.navigation ul{
+    list-style-type: none;
+    background-color: hsl(194, 44%, 64%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+
+.navigation a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+li{
+    border-style: outset;
+    border-color:hsl(194, 66%, 10%);
+    
+}
+.navigation a:hover{
+    background-color: hsl(194, 66%, 10%);
+    color: white;
+}
+
+.navigation li{
+    float: left;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
